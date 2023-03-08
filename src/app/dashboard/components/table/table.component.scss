@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 12.5vw;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.filters {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.btn {
+  background-color: #673ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.btn:hover {
+  background-color: #7632ea;
+}
